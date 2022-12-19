@@ -8,11 +8,10 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-
-stages:
-- stage: Build
 steps:
 - script: echo Hello, world!
+stages:
+- stage: Build
   jobs:
   - job: BuildPackage
  
