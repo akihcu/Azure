@@ -13,8 +13,8 @@ stages:
   jobs:
   - job: BuildPackage
     steps:
-    - script: echo Hello, world!
-      displayName: 'Run a one-line script'
+    - script: echo Build finish!
+     
 
  
  
