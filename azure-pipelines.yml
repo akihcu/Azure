@@ -11,6 +11,9 @@ pool:
 
 stages:
 - stage: Build
+steps:
+- script: echo Hello, world!
   jobs:
   - job: BuildPackage
+ 
  
