@@ -15,8 +15,6 @@ stages:
   - job: BuildPackage
     steps:
     - Build
-    - Package
-    - Publish
 - stage: Deploy
   jobs:
   - job: startDeployment
